@@ -1,0 +1,13 @@
+.btn-button {
+    width: 120px;
+    height: 47px;
+    border-radius: 5px;
+    background: #7854F7;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
