@@ -9,8 +9,8 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-left">
           <div className="hero-text">
-            <h1>Building exactly the eCommerce website you want.</h1>
-            <p>
+            <h1 className="hero-header">Building exactly the eCommerce website you want.</h1>
+            <p className="hero-para-text">
               WooCommerce is a customizable, open-source eCommerce platform
               built on WordPress. Get started quickly and make your way.
             </p>
