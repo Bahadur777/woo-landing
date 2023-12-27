@@ -1,0 +1,16 @@
+.feature{
+
+}
+.feature-header{
+    width: 40%;
+    margin: 0 auto;
+}
+.feature-header-text{
+    color: #272D4E;
+text-align: center;
+font-family: Circular Std;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 127.273% */
+}
