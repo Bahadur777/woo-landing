@@ -1,5 +1,6 @@
 import Image from "next/image"
 import './feature.css'
+import Card from "../Card/Card"
 
 const Feature = () => {
   return (
@@ -9,7 +10,9 @@ const Feature = () => {
             Your eCommerce made simple
             </h1>
         </div>
-        
+        <div className="card-section">
+         <Card/>
+        </div>
     </div>
   )
 }

@@ -14,3 +14,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 70px; /* 127.273% */
 }
+.card-section{
+ width: 90%;
+ margin: 0 auto;
+}
