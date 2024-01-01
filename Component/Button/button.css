@@ -13,17 +13,17 @@
     padding: 10px;
 }
 
-.round-btn{
+.round-btn {
     border-radius: 60px;
     background: #70C217;
     color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding: 15px;
-width: fit-content;
-cursor: pointer;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px;
+    width: fit-content;
+    cursor: pointer;
 }

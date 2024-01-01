@@ -3,4 +3,5 @@ const AboutLinks=[
     {href:'/#team', title: 'Team'},
     {href:'/#workwithus', title:'Work with us'}
 ]
-export default AboutLinks
+export default AboutLinks;
+
