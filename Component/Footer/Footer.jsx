@@ -3,9 +3,11 @@ import Image from 'next/image';
 import { PiArrowCircleUpRightBold } from "react-icons/pi";
 import Logo from '../../public/Images/LOGO.svg'
 import FooterLinks from './Footer_links/FooterLinks';
+import FooterBottom from './FooterBottom.jsx/FooterBottom';
 const Footer = () => {
   return (
-    <div className='footer-section'>
+    <div>
+        <div className='footer-section'>
          <div className="footer-section-container">
             <div className="footer-top">
                 <div className="footer-top-content">
@@ -40,7 +42,11 @@ const Footer = () => {
                 <div className="hr"></div>
             </div>
             <FooterLinks/>
+            
          </div>
+         
+    </div>
+    <FooterBottom/>
     </div>
   )
 }
