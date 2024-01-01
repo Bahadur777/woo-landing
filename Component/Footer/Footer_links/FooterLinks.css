@@ -1,12 +1,22 @@
+.footer-links-container{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 10px;
+}
 .about, .Wo-commerce{
     color: #ffffff;
 }
 .about h1{
     padding: 10px 0;
 }
-.footer-links-container{
-    display: flex;
-    
-    justify-content: space-between;
-    gap: 10px;
+.Wo-commerce h1{
+    color: #ffffff;
+    padding: 10px 0;
+}
+.OtherProducts{
+    color: #ffffff;
+}
+.OtherProducts h1{
+    padding:  10px 0;
 }

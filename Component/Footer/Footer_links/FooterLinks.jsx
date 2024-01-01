@@ -2,6 +2,7 @@ import './FooterLinks.css'
 import Link from 'next/link'
 import AboutLinks from './AboutLinks'
 import WooData from './WooData'
+import ProductData from './Product'
 const FooterLinks = ({title, linksText}) => {
   return (
     <div className='footer-links'>
@@ -32,6 +33,20 @@ const FooterLinks = ({title, linksText}) => {
                   </div>
                  )
                })
+              }
+            </div>
+            <div className="OtherProducts">
+              <h1>Other products</h1>
+              {
+                ProductData.map(({id, href, title})=>{
+                  return(
+                    <div className="porduct-data" key={id}>
+                      <Link href={href}>
+                        {title}
+                      </Link>
+                    </div>
+                  )
+                })
               }
             </div>
         </div>
