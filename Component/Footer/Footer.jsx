@@ -2,6 +2,7 @@ import './footer.css'
 import Image from 'next/image';
 import { PiArrowCircleUpRightBold } from "react-icons/pi";
 import Logo from '../../public/Images/LOGO.svg'
+import FooterLinks from './Footer_links/FooterLinks';
 const Footer = () => {
   return (
     <div className='footer-section'>
@@ -38,6 +39,7 @@ const Footer = () => {
                 </div>
                 <div className="hr"></div>
             </div>
+            <FooterLinks/>
          </div>
     </div>
   )
