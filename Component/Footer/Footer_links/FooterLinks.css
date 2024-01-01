@@ -1,6 +1,7 @@
 .footer-links-container{
     display: flex;
-    
+    width: 80%;
+    margin: 0 auto;
     justify-content: space-between;
     gap: 10px;
 }
@@ -19,4 +20,10 @@
 }
 .OtherProducts h1{
     padding:  10px 0;
+}
+.recommend{
+    color: #ffffff;
+}
+.recommend h1{
+    padding: 10px 0;
 }

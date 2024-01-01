@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AboutLinks from './AboutLinks'
 import WooData from './WooData'
 import ProductData from './Product'
+import Support from './Support'
 const FooterLinks = ({title, linksText}) => {
   return (
     <div className='footer-links'>
@@ -43,6 +44,20 @@ const FooterLinks = ({title, linksText}) => {
                     <div className="porduct-data" key={id}>
                       <Link href={href}>
                         {title}
+                      </Link>
+                    </div>
+                  )
+                })
+              }
+            </div>
+            <div className="recommend">
+              <h1>We recommend</h1>
+              {
+                Support.map(({id, href, title})=>{
+                  return(
+                    <div className="support" key={id}>
+                      <Link href={href}>
+                      {title}
                       </Link>
                     </div>
                   )
